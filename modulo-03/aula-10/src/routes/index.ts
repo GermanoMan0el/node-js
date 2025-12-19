@@ -8,6 +8,7 @@ router.use("/produtos", routesProdutos);
 router.use("/voos", routerFlights);
 
 router.get("/", (req, res) => {
+    // dhaksjdh();
     res.send("Seja bem vindo a loja de produtos!");
 });
 
