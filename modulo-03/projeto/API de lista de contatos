@@ -1,0 +1,14 @@
+API de lista de contatos:
+
+Funcionalidade:
+- Criar um novo contato
+- Listar os contatos
+- Excluir o contato
+
+Planejamento de rotas:
+- POST 
+    /contato { name: "Germany" }
+- GET 
+    /contatos
+- DELETE
+    /contato?name=Germany

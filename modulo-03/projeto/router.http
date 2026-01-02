@@ -1,0 +1,10 @@
+POST http://localhost:3333/contato
+Content-Type: application/json
+
+{
+    "name": "GR5"
+}
+
+###
+
+GET http://localhost:3333/contatos
